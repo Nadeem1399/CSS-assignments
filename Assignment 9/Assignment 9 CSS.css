@@ -1,0 +1,32 @@
+* {
+    margin:0;
+}
+
+#main {
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    min-height:400px;
+    border:solid 1px black;
+    padding:40px;
+}
+
+.innerdiv {
+    width:200px;
+    height:200px;
+    background-color:green;
+    margin:10px;
+    display:inline-block;
+    color:white;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+.highlight { 
+    /* 
+        If we move this above .innerdiv, the background color will not apply. 
+        Remember when combining classes, the order will go based on what comes first in the style sheet or style definition.
+    */
+    background-color:blue;
+}
